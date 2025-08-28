@@ -1,9 +1,20 @@
-import showScore from "./tennisScore";
+import TennisScorer from "./tennisScore";
 
 describe("Tennis Score", () => {
     it ("Deberia mostrar Love-Love al iniciar el juego", () => {
-        expect(showScore()).toEqual("Love-Love");
+        const scorer = new TennisScorer();
+        expect(scorer.showScore()).toEqual("Love-Love");
     });
-
+    it ("Deberia mostrar 15-Love cuando el jugador 1 anota el primer punto", () => {
+        const scorer = new TennisScorer();
+        scorer.player1Scores();
+        expect(scorer.showScore()).toEqual("15-Love");
+    });
+    it ("Deberia mostrar 30-Love cuando el jugador 1 anota el segundo punto", () => {
+        const scorer = new TennisScorer();
+        scorer.player1Scores();
+        scorer.player1Scores();
+        expect(scorer.showScore()).toEqual("30-Love");
+    });
 });
 

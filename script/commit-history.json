@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "21f33103c7150888407aecb8cf7a30f0783fabf9",
     "author": "Lackio-EL-14",
     "commit": {
       "date": "2025-08-28T14:05:16.000Z",
       "message": "feat: Muestra Love-Love cuando el marcador es 0-0",
-      "url": "https://github.com/Lackio-EL-14/TennisScore/commit/HEAD"
+      "url": "https://github.com/Lackio-EL-14/TennisScore/commit/21f33103c7150888407aecb8cf7a30f0783fabf9"
     },
     "stats": {
       "total": 41,
@@ -15,6 +15,25 @@
     },
     "coverage": 100,
     "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Lackio-EL-14",
+    "commit": {
+      "date": "2025-08-28T14:24:16.000Z",
+      "message": "feat: Avanzamos y ahora muestra 15-Love cuando Player1 tiene un punto y 30-Love cuando Player 1 tiene 2 puntos",
+      "url": "https://github.com/Lackio-EL-14/TennisScore/commit/HEAD"
+    },
+    "stats": {
+      "total": 39,
+      "additions": 31,
+      "deletions": 8,
+      "date": "2025-08-28"
+    },
+    "coverage": 100,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }

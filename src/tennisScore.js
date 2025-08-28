@@ -1,7 +1,19 @@
-function showScore(score1 , score2 ) {
+class TennisScorer {
+    constructor() {
+        this.score1 = 0;
+        this.score2 = 0;
+    }
+    showScore() {
+        if (this.score1 === 1){
+        return "15-Love";
+        }   else if (this.score1 === 2){
+            return "30-Love";
+        }
+        return "Love-Love";
 
-    return "Love-Love";
-
+    }
+    player1Scores() {
+        this.score1++;
+    }
 }
-
-export default showScore;
+export default TennisScorer;
