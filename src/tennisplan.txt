@@ -1,0 +1,12 @@
+ConteoPuntos(n,m)
+    - Probar secuencia 0-15-30-40-game para jugador 1 y 0 para jugador 2
+    - Probar secuencia para ambos jugadores al mismo tiempo
+    - Al llegar a "game" devolver los contadores a 0 
+Desempate(n,m)
+    - Cambiar la secuencia 40-40 --> Deuce
+    - En siguiente punto para cualquier jugador mostrar Advange for "(num del jugador)"
+    - si ambos jugadores logran punto el marcador volvera a tener "Deuce"
+    - Si uno obtine 2 puntos mostrar game y devolver los marcadores a 0 
+Ganador(n,m)
+    - Para futuro al llegar a x puntos un jugador mostrar victoria del jugador "..."
+    

@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "Lackio-EL-14",
+    "commit": {
+      "date": "2025-08-28T14:05:16.000Z",
+      "message": "feat: Muestra Love-Love cuando el marcador es 0-0",
+      "url": "https://github.com/Lackio-EL-14/TennisScore/commit/HEAD"
+    },
+    "stats": {
+      "total": 41,
+      "additions": 32,
+      "deletions": 9,
+      "date": "2025-08-28"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
