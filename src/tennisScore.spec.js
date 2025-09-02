@@ -92,5 +92,16 @@ describe("Tennis Score", () => {
         scorer.player1Scores();
         expect(scorer.showScore()).toEqual("Adventage Player 1");
     });
+    it ("Deberia mostrar Adventage Player 2 cuando el jugador 2 anota un punto despues de Deuce", () => {
+        const scorer = new TennisScorer();
+        scorer.player1Scores();
+        scorer.player1Scores();
+        scorer.player1Scores();
+        scorer.player2Scores();
+        scorer.player2Scores();
+        scorer.player2Scores();
+        scorer.player2Scores();
+        expect(scorer.showScore()).toEqual("Adventage Player 2");
+    });
 });
 

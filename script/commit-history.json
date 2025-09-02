@@ -228,12 +228,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a91d761db90df923622407846ec7c7b5ca3a5471",
     "author": "Lackio-EL-14",
     "commit": {
       "date": "2025-09-02T04:24:40.000Z",
       "message": "feat: Ahora entramos en los casos posteriores Deuce o empate comtrando Adventaje for player 1 si este ultimo le lleva un punto al player 2",
-      "url": "https://github.com/Lackio-EL-14/TennisScore/commit/HEAD"
+      "url": "https://github.com/Lackio-EL-14/TennisScore/commit/a91d761db90df923622407846ec7c7b5ca3a5471"
     },
     "stats": {
       "total": 15,
@@ -245,5 +245,24 @@
     "test_count": 13,
     "failed_tests": 0,
     "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Lackio-EL-14",
+    "commit": {
+      "date": "2025-09-02T04:26:22.000Z",
+      "message": "feat: Mostramos Adventaje for player 2 si este ultimo le lleva un punto al player 1",
+      "url": "https://github.com/Lackio-EL-14/TennisScore/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2025-09-02"
+    },
+    "coverage": 97.06,
+    "test_count": 14,
+    "failed_tests": 1,
+    "conclusion": "failure"
   }
 ]
