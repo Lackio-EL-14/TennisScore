@@ -127,5 +127,17 @@ describe("Tennis Score", () => {
         scorer.player2Scores();
         expect(scorer.showScore()).toEqual("Game for Player 2");
     });
+    it ("Deberia volver a mostrar Deuce si ambos jugadores empatan despues de Adventage", () => {
+        const scorer = new TennisScorer();
+        scorer.player1Scores();
+        scorer.player1Scores();
+        scorer.player1Scores();
+        scorer.player2Scores();
+        scorer.player2Scores();
+        scorer.player2Scores();
+        scorer.player1Scores();
+        scorer.player2Scores();
+        expect(scorer.showScore()).toEqual("Deuce");
+    });
 });
 

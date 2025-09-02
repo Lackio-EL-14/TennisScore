@@ -16,7 +16,10 @@ class TennisScorer {
                 return "Game for Player 1";
             } else if (this.score2 >= this.score1 + 2) {
                 return "Game for Player 2";
+            } else {
+                return "Error";
             }
+            
         } else if (this.score1 === 1){
             return "15-Love";
         }   else if (this.score1 === 2){
@@ -52,6 +55,8 @@ class TennisScorer {
         } else if (n1 === 2 && n2 === 2){
             return "30-30";
         } else if (n1 === 3 && n2 === 3){
+            return "Deuce";
+        } else if (n1 === n2){
             return "Deuce";
         }
         
