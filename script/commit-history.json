@@ -190,17 +190,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e364d75d9f641f6c86bb1941ad8ac40563dd7e9a",
     "author": "Lackio-EL-14",
     "commit": {
       "date": "2025-09-02T04:09:22.000Z",
       "message": "Deberia mostrar 40-40 cuando ambos jugadores tienen 3 puntos anotados",
-      "url": "https://github.com/Lackio-EL-14/TennisScore/commit/HEAD"
+      "url": "https://github.com/Lackio-EL-14/TennisScore/commit/e364d75d9f641f6c86bb1941ad8ac40563dd7e9a"
     },
     "stats": {
       "total": 12,
       "additions": 12,
       "deletions": 0,
+      "date": "2025-09-02"
+    },
+    "coverage": 96.77,
+    "test_count": 12,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Lackio-EL-14",
+    "commit": {
+      "date": "2025-09-02T04:11:32.000Z",
+      "message": "fix:Deberia mostrar Deuce cuando ambos jugadores tienen 3 puntos anotados",
+      "url": "https://github.com/Lackio-EL-14/TennisScore/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 4,
+      "deletions": 4,
       "date": "2025-09-02"
     },
     "coverage": 96.77,

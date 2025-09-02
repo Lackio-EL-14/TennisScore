@@ -42,7 +42,7 @@ class TennisScorer {
         } else if (n1 === 2 && n2 === 2){
             return "30-30";
         } else if (n1 === 3 && n2 === 3){
-            return "40-40";
+            return "Deuce";
         }
         
     }
