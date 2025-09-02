@@ -36,5 +36,11 @@ describe("Tennis Score", () => {
         scorer.player2Scores();
         expect(scorer.showScore()).toEqual("Love-15");
     });
+    it ("Deberia mostrar Love-30 cuando el jugador 2 anota dos puntos", () => {
+        const scorer = new TennisScorer();
+        scorer.player2Scores();
+        scorer.player2Scores();
+        expect(scorer.showScore()).toEqual("Love-30");
+    });
 });
 

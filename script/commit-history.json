@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b4dd513223e2878a0255f0a0dfa697bb0db1cc14",
     "author": "Lackio-EL-14",
     "commit": {
       "date": "2025-09-02T03:48:22.000Z",
       "message": "feat: Ahora muestra Love-15 cuando el jugafor 2 marca siendo el marcador es 0-1",
-      "url": "https://github.com/Lackio-EL-14/TennisScore/commit/HEAD"
+      "url": "https://github.com/Lackio-EL-14/TennisScore/commit/b4dd513223e2878a0255f0a0dfa697bb0db1cc14"
     },
     "stats": {
       "total": 14,
@@ -91,6 +91,25 @@
     },
     "coverage": 100,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Lackio-EL-14",
+    "commit": {
+      "date": "2025-09-02T03:50:22.000Z",
+      "message": "feat: Ahora muestra Love-30 cuando el jugador 2 marca su segundo punto siendo el marcador es 0-2",
+      "url": "https://github.com/Lackio-EL-14/TennisScore/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 10,
+      "deletions": 2,
+      "date": "2025-09-02"
+    },
+    "coverage": 100,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }
