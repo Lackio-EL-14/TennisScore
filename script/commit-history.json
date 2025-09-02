@@ -152,12 +152,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2aef922b650e9c5be4b67ffbc13561b46a13cb94",
     "author": "Lackio-EL-14",
     "commit": {
       "date": "2025-09-02T04:04:36.000Z",
       "message": "Ahora entramos a los casos de puntos iguales empezando por mostrar 15-15 cuando ambos jugadores tienen 1 punto anotado",
-      "url": "https://github.com/Lackio-EL-14/TennisScore/commit/HEAD"
+      "url": "https://github.com/Lackio-EL-14/TennisScore/commit/2aef922b650e9c5be4b67ffbc13561b46a13cb94"
     },
     "stats": {
       "total": 27,
@@ -167,6 +167,25 @@
     },
     "coverage": 92.86,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Lackio-EL-14",
+    "commit": {
+      "date": "2025-09-02T04:07:30.000Z",
+      "message": "Deberia mostrar 30-30 cuando ambos jugadores tienen 2 puntos anotado",
+      "url": "https://github.com/Lackio-EL-14/TennisScore/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
+      "date": "2025-09-02"
+    },
+    "coverage": 96.55,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }

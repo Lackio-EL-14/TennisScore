@@ -39,8 +39,10 @@ class TennisScorer {
             return "Love-Love";
         } else if (n1 === 1 && n2 === 1){
             return "15-15";
+        } else if (n1 === 2 && n2 === 2){
+            return "30-30";
         }
-        return "Deuce";
+        
     }
 }
 export default TennisScorer;
