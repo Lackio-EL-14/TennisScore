@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "414ec0c9644e330e4ddbf8e82f385a0cce2daee0",
     "author": "Lackio-EL-14",
     "commit": {
       "date": "2025-09-02T03:52:02.000Z",
       "message": "feat: Ahora muestra Love-30 cuando el jugador 2 marca su tercer punto siendo el marcador es 0-3",
-      "url": "https://github.com/Lackio-EL-14/TennisScore/commit/HEAD"
+      "url": "https://github.com/Lackio-EL-14/TennisScore/commit/414ec0c9644e330e4ddbf8e82f385a0cce2daee0"
     },
     "stats": {
       "total": 9,
@@ -129,6 +129,25 @@
     },
     "coverage": 100,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Lackio-EL-14",
+    "commit": {
+      "date": "2025-09-02T03:54:02.000Z",
+      "message": "feat: Ahora muestra Game for player 2 cuando el jugador 2 marca el cuarto punto siendo el marcador es 0-4",
+      "url": "https://github.com/Lackio-EL-14/TennisScore/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2025-09-02"
+    },
+    "coverage": 100,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }
