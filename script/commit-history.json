@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b2db0e454c23161ab2aeb7972771c2c49f3b5e9b",
     "author": "Lackio-EL-14",
     "commit": {
       "date": "2025-09-02T03:35:11.000Z",
       "message": "feat: Ahora muestra 40-Love cuando el marcador es 40-0",
-      "url": "https://github.com/Lackio-EL-14/TennisScore/commit/HEAD"
+      "url": "https://github.com/Lackio-EL-14/TennisScore/commit/b2db0e454c23161ab2aeb7972771c2c49f3b5e9b"
     },
     "stats": {
       "total": 11,
@@ -53,6 +53,25 @@
     },
     "coverage": 100,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Lackio-EL-14",
+    "commit": {
+      "date": "2025-09-02T03:39:16.000Z",
+      "message": "feat: Ahora muestra Game for player 1 cuando el jugador 1 anota su 4 punto y el jugador 2 no lo empato",
+      "url": "https://github.com/Lackio-EL-14/TennisScore/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
+      "date": "2025-09-02"
+    },
+    "coverage": 100,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -23,6 +23,14 @@ describe("Tennis Score", () => {
         scorer.player1Scores();
         expect(scorer.showScore()).toEqual("40-Love");
     });
-    
+    it ("Deberia mostrar Game for Player 1 cuando el jugador 1 anota el cuarto punto", () => {
+        const scorer = new TennisScorer();
+        scorer.player1Scores();
+        scorer.player1Scores();
+        scorer.player1Scores();
+        scorer.player1Scores();
+        expect(scorer.showScore()).toEqual("Game for Player 1");
+    });
+
 });
 
