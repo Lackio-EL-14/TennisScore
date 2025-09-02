@@ -1,15 +1,29 @@
-import sumar from "./sumador";
+import TennisScorer from "./tennisScore.js";
 
-const first = document.querySelector("#primer-numero");
-const second = document.querySelector("#segundo-numero");
-const form = document.querySelector("#sumar-form");
-const div = document.querySelector("#resultado-div");
+export default class TennisPresenter {
+    constructor(view) {
+        this.view = view;
+        this.scorer = new TennisScorer();
+        this.updateView();
+    }
 
-form.addEventListener("submit", (event) => {
-  event.preventDefault();
+    player1Scores() {
+        this.scorer.player1Scores();
+        this.updateView();
+    }
 
-  const firstNumber = Number.parseInt(first.value);
-  const secondNumber = Number.parseInt(second.value);
+    player2Scores() {
+        this.scorer.player2Scores();
+        this.updateView();
+    }
 
-  div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
-});
+    reset() {
+        this.scorer.score1 = 0;
+        this.scorer.score2 = 0;
+        this.updateView();
+    }
+
+    updateView() {
+        this.view.showScore(this.scorer.showScore());
+    }
+}

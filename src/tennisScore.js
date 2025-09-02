@@ -20,23 +20,35 @@ class TennisScorer {
                 return "Error";
             }
             
-        } else if (this.score1 === 1){
+        }   else if (this.score1 === 1 && this.score2 === 0) {
             return "15-Love";
-        }   else if (this.score1 === 2){
+        } else if (this.score1 === 2 && this.score2 === 0) {
             return "30-Love";
-        }   else if (this.score1 === 3){
+        } else if (this.score1 === 3 && this.score2 === 0) {
             return "40-Love";
-        }   else if (this.score1 === 4){
-            return "Game for Player 1";
-        }   else if (this.score2 === 1){
+        } else if (this.score1 === 0 && this.score2 === 1) {
             return "Love-15";
-        }   else if (this.score2 === 2){
+        } else if (this.score1 === 0 && this.score2 === 2) {
             return "Love-30";
-        }   else if (this.score2 === 3){
+        } else if (this.score1 === 0 && this.score2 === 3) {
             return "Love-40";
-        }   else if (this.score2 === 4){
+        } else if (this.score1 === 1 && this.score2 === 2) {
+            return "15-30";
+        } else if (this.score1 === 1 && this.score2 === 3) {
+            return "15-40";
+        } else if (this.score1 === 2 && this.score2 === 1) {
+            return "30-15";
+        } else if (this.score1 === 2 && this.score2 === 3) {
+            return "30-40";
+        } else if (this.score1 === 3 && this.score2 === 1) {
+            return "40-15";
+        } else if (this.score1 === 3 && this.score2 === 2) {
+            return "40-30";
+        } else if (this.score1 === 4 && this.score2 <= 2) {
+            return "Game for Player 1";
+        } else if (this.score2 === 4 && this.score1 <= 2) {
             return "Game for Player 2";
-        }   else {
+        } else {
             return "Error";
         }
 
@@ -54,9 +66,7 @@ class TennisScorer {
             return "15-15";
         } else if (n1 === 2 && n2 === 2){
             return "30-30";
-        } else if (n1 === 3 && n2 === 3){
-            return "Deuce";
-        } else if (n1 === n2){
+        } else if (n1 >= 3 && n2 >= 3){
             return "Deuce";
         }
         

@@ -323,12 +323,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b93cc8bc0cafcc8c6caf00a4e2a1b056b15e4f3d",
     "author": "Lackio-EL-14",
     "commit": {
       "date": "2025-09-02T04:34:57.000Z",
       "message": "Por ultimo muestra Deuce nuevamente si empatan de nuevo",
-      "url": "https://github.com/Lackio-EL-14/TennisScore/commit/HEAD"
+      "url": "https://github.com/Lackio-EL-14/TennisScore/commit/b93cc8bc0cafcc8c6caf00a4e2a1b056b15e4f3d"
     },
     "stats": {
       "total": 17,
@@ -337,6 +337,25 @@
       "date": "2025-09-02"
     },
     "coverage": 95.35,
+    "test_count": 17,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Lackio-EL-14",
+    "commit": {
+      "date": "2025-09-02T04:56:20.000Z",
+      "message": "fix: Mejorando la logica del marcafor para reflejar todos los posibles casos",
+      "url": "https://github.com/Lackio-EL-14/TennisScore/commit/HEAD"
+    },
+    "stats": {
+      "total": 123,
+      "additions": 82,
+      "deletions": 41,
+      "date": "2025-09-02"
+    },
+    "coverage": 84.91,
     "test_count": 17,
     "failed_tests": 0,
     "conclusion": "success"
