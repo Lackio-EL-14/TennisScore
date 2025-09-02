@@ -266,12 +266,12 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "139a98efde30e37e06ff29ca646437b2f68c55a0",
     "author": "Lackio-EL-14",
     "commit": {
       "date": "2025-09-02T04:26:54.000Z",
       "message": "feat: Mostramos Adventaje for player 2 si este ultimo le lleva un punto al player 1",
-      "url": "https://github.com/Lackio-EL-14/TennisScore/commit/HEAD"
+      "url": "https://github.com/Lackio-EL-14/TennisScore/commit/139a98efde30e37e06ff29ca646437b2f68c55a0"
     },
     "stats": {
       "total": 2,
@@ -281,6 +281,25 @@
     },
     "coverage": 97.22,
     "test_count": 14,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Lackio-EL-14",
+    "commit": {
+      "date": "2025-09-02T04:29:26.000Z",
+      "message": "feat: Mostramos Game for player 1 si este ultimo le lleva dos puntos al player 2",
+      "url": "https://github.com/Lackio-EL-14/TennisScore/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 14,
+      "deletions": 0,
+      "date": "2025-09-02"
+    },
+    "coverage": 97.37,
+    "test_count": 15,
     "failed_tests": 0,
     "conclusion": "success"
   }
