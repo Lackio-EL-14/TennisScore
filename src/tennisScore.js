@@ -10,6 +10,8 @@ class TennisScorer {
         } else if (this.score1 >= 3 && this.score2 >= 3) { 
             if (this.score1 === this.score2 + 1) {
                 return "Adventage Player 1";
+            } else if (this.score2 === this.score1 + 1) {
+                return "Adventage Player 2";
             }
         } else if (this.score1 === 1){
             return "15-Love";
