@@ -5,8 +5,10 @@ class TennisScorer {
     }
     showScore() {
 
-        if (this.score1 === 1){
-        return "15-Love";
+        if (this.score1 === this.score2){
+            return this.draw(this.score1, this.score2);
+        } else if (this.score1 === 1){
+            return "15-Love";
         }   else if (this.score1 === 2){
             return "30-Love";
         }   else if (this.score1 === 3){
@@ -21,11 +23,9 @@ class TennisScorer {
             return "Love-40";
         }   else if (this.score2 === 4){
             return "Game for Player 2";
+        }   else {
+            return "Error";
         }
-        return "Love-Love";
-    
-
-      
 
     }
     player1Scores() {
@@ -33,6 +33,14 @@ class TennisScorer {
     }
     player2Scores() {
         this.score2++;
+    }
+    draw(n1, n2) {
+        if (n1 === 0 && n2 === 0){
+            return "Love-Love";
+        } else if (n1 === 1 && n2 === 1){
+            return "15-15";
+        }
+        return "Deuce";
     }
 }
 export default TennisScorer;

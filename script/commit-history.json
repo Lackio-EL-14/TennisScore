@@ -133,12 +133,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4b3d057c51b49fbbb3f921a63f703e03b3952409",
     "author": "Lackio-EL-14",
     "commit": {
       "date": "2025-09-02T03:54:02.000Z",
       "message": "feat: Ahora muestra Game for player 2 cuando el jugador 2 marca el cuarto punto siendo el marcador es 0-4",
-      "url": "https://github.com/Lackio-EL-14/TennisScore/commit/HEAD"
+      "url": "https://github.com/Lackio-EL-14/TennisScore/commit/4b3d057c51b49fbbb3f921a63f703e03b3952409"
     },
     "stats": {
       "total": 11,
@@ -148,6 +148,25 @@
     },
     "coverage": 100,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Lackio-EL-14",
+    "commit": {
+      "date": "2025-09-02T04:04:36.000Z",
+      "message": "Ahora entramos a los casos de puntos iguales empezando por mostrar 15-15 cuando ambos jugadores tienen 1 punto anotado",
+      "url": "https://github.com/Lackio-EL-14/TennisScore/commit/HEAD"
+    },
+    "stats": {
+      "total": 27,
+      "additions": 20,
+      "deletions": 7,
+      "date": "2025-09-02"
+    },
+    "coverage": 92.86,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }
