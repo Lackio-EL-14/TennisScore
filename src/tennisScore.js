@@ -13,12 +13,20 @@ class TennisScorer {
             return "40-Love";
         }  else if (this.score1 === 4){
             return "Game for Player 1";
+        } else if (this.score2 === 1){
+            return "Love-15";
         }
         return "Love-Love";
+    
+
+      
 
     }
     player1Scores() {
         this.score1++;
+    }
+    player2Scores() {
+        this.score2++;
     }
 }
 export default TennisScorer;
