@@ -115,5 +115,17 @@ describe("Tennis Score", () => {
         scorer.player1Scores();
         expect(scorer.showScore()).toEqual("Game for Player 1");
     });
+    it ("Deberia mostrar Game for Player 2 cuando el jugador 2 anota un punto despues de Adventage Player 2", () => {
+        const scorer = new TennisScorer();
+        scorer.player1Scores();
+        scorer.player1Scores();
+        scorer.player1Scores();
+        scorer.player2Scores();
+        scorer.player2Scores();
+        scorer.player2Scores();
+        scorer.player2Scores();
+        scorer.player2Scores();
+        expect(scorer.showScore()).toEqual("Game for Player 2");
+    });
 });
 
