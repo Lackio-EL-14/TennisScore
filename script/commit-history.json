@@ -171,12 +171,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8c6088bcba17aa8af58510f86d13150360eec246",
     "author": "Lackio-EL-14",
     "commit": {
       "date": "2025-09-02T04:07:30.000Z",
       "message": "Deberia mostrar 30-30 cuando ambos jugadores tienen 2 puntos anotado",
-      "url": "https://github.com/Lackio-EL-14/TennisScore/commit/HEAD"
+      "url": "https://github.com/Lackio-EL-14/TennisScore/commit/8c6088bcba17aa8af58510f86d13150360eec246"
     },
     "stats": {
       "total": 12,
@@ -186,6 +186,25 @@
     },
     "coverage": 96.55,
     "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Lackio-EL-14",
+    "commit": {
+      "date": "2025-09-02T04:09:22.000Z",
+      "message": "Deberia mostrar 40-40 cuando ambos jugadores tienen 3 puntos anotados",
+      "url": "https://github.com/Lackio-EL-14/TennisScore/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
+      "date": "2025-09-02"
+    },
+    "coverage": 96.77,
+    "test_count": 12,
     "failed_tests": 0,
     "conclusion": "success"
   }

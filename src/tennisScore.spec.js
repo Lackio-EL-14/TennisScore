@@ -71,5 +71,15 @@ describe("Tennis Score", () => {
         scorer.player2Scores();
         expect(scorer.showScore()).toEqual("30-30");
     });
+    it ("Deberia mostrar 40-40 cuando ambos jugadores anotan tres puntos", () => {
+        const scorer = new TennisScorer();
+        scorer.player1Scores();
+        scorer.player1Scores();
+        scorer.player1Scores();
+        scorer.player2Scores();
+        scorer.player2Scores();
+        scorer.player2Scores();
+        expect(scorer.showScore()).toEqual("40-40");
+    }); 
 });
 
